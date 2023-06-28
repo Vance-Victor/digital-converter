@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100%;
+    background-image: url(../asset/images/mountains06.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.page1{
+    width: 50%;
+}
+.page1 .first{
+    width: 100%;
+    
+}
+.page1 .first h1{
+    
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40%;
+}
+.page1 .first h1 span{
+    color: white;
+}
+.page2{
+    width: 40%;
+}
+.page2 .second{
+    margin-top: 20%;
+    margin-buttom: 10%;
+    width: 100%;
+    background-color: #efefef6b;
+    justify-content: space-around;
+    box-shadow: 2px 1px 0px rgb(51, 51, 75);
+}
+.page2 .second .d1 h2{
+    color: #05050A;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 64px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.page2 .second .d2{
+    width: 100%;
+    padding-left: 5%;
+
+}
+.page2 .second .d2 input{
+    width: 42%;
+    font-size: 13.3333px;
+    margin: 9.6px 0 0;
+    padding: 8px 27.2px;
+    color: #040411;
+}
+.page2 .second .d2 .text{
+    margin-left: 15%;
+    border-color: black;
+    border-radius: 5px;
+}
+.page2 .second .d2 .convert{
+    margin-left: 20%;
+    margin-bottom: 20%;
+    border-color: black;
+    border-radius: 5px;
+}
+.page2 .second .d2 .so{
+    width: 37%;
+    text-align: center;
+    margin-left: 5%;
+}
+.page2 .second .d2 .os{
+    width: 37%;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1040px) {
+    body{
+        width: 100%;
+        display: flex;
+        background-size: 450%;
+    }
+    .page1{
+        width: 100%;
+    }
+    .page1 .first{
+        width: 100%;
+    }
+    .page1 .first h1{
+        font-size: 240%;
+        text-align: left;
+        padding-left: 4%;
+    }
+    .page2 .second{
+        width: 255%;
+        margin-top: 170%;
+        margin-left: -174%;
+    }
+    .page2 .second .d1 h2{
+        font-size: 30px;
+    }
+}

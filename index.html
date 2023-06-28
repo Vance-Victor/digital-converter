@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="script/index.js">
+    
+    <title>weight converter</title>
+</head>
+<body>
+    <section class="page1">
+    <div class="first">
+        <h1> DIGITAL CONVERTER
+            <span>APPLICATION</span> </h1>
+    </div>
+</section>
+<section class="page2">
+    <div class="second">
+        <form id="ftag">
+        <div class="d1">
+        <h2>WEIGHT CONVERTER</h2>
+        </div>
+        <div class="d2">
+        <input type="button" 
+        id="tonne" 
+        value="Tonnes - Kilograms" class="tk" onclick="ton()">
+        
+        <input type="button" 
+        id="kilograms" 
+        value="Kilograms - Tonnes" class="tk" onclick="kil()">
+
+        <input type="button" 
+        id="stone" 
+        value="Stone - Ounce" class="so" onclick="sto()">
+
+        <input type= "button" 
+        id="ounce" 
+        value="Ounce - Stone" class="os" onclick="oun()">
+
+        <p id="error" style="color: red; font-size: 120%;"></p>
+
+        <input type="text" 
+        id="text" class="text">
+
+        <input type="submit" 
+        id="submit" 
+        value="Convert" class="convert">
+        <p id="output" style="color: black; font-size: 30px; padding-bottom: 5%; text-align: center;" ></p>
+
+    </div>
+    </form>
+    </div>
+    </section>
+    <script src="script/index.js"></script>
+</body>
+</html>
